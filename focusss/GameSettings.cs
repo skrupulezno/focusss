@@ -8,7 +8,23 @@ namespace focusss
 {
     public static class GameSettings
     {
+
+
+
         public static int FrontSetIndex { get; set; } = 0;
+
+
+
+        //33233333
+
+        //33233333
+
+        //33233333
+
+        //33233333
+
+
+
         public static int BackImageIndex { get; set; } = 0;
         public static int BackgroundImageIndex { get; set; } = 0;
     }
