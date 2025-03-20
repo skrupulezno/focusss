@@ -247,6 +247,17 @@ namespace focusss
                 }
             }
         }
+
+        private void btnSettings_Cli2ck(object sender, EventArgs e)
+        {
+            using (SettingsForm settingsForm = new SettingsForm())
+            {
+                if (settingsForm.ShowDialog() == DialogResult.OK)
+                {
+                    StartRound();
+                }
+            }
+        }
     }
 
 }
